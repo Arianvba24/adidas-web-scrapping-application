@@ -7,7 +7,9 @@ import base64
 import time
 import asyncio
 from io import BytesIO
+import os
 
+os.system("playwright install")
 
 timestr = time.strftime("%Y%m%d-%H%M%S")
 
