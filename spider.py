@@ -28,9 +28,6 @@ def buscar_segundo_numero(text):
         return float(value[1].replace(",","."))
     else:
         return float(value[0].replace(",","."))
-import nest_asyncio
-
-nest_asyncio.apply()
 class Async_spider_functions():
 
     def __init__(self):
