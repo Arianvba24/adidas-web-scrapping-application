@@ -8,9 +8,7 @@ import time
 import asyncio
 from io import BytesIO
 import os
-import nest_asyncio
 
-nest_asyncio.apply()
 os.system("playwright install")
 
 
