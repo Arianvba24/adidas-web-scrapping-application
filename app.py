@@ -14,7 +14,7 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 @st.cache_data
 def scrapping_data(url):
     spider = Async_spider_functions()
-    loop = asyncio.ProactorEventLoop()
+    loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     df = loop.run_until_complete(spider.open_browser(url))
     return df
