@@ -7,3 +7,4 @@ streamlit==1.37.0
 lxml==4.9.3
 openpyxl==3.1.2
 asyncio==3.4.3
+nest-asyncio==1.5.6
